@@ -4,43 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        html,body {
-            margin: 0px;
-            padding: 0px;
-            width: 100%;
-            height: 100%;
-        }    
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="table">
-        <div class="row">
-            <div style="display: inline-block; width: 33%;" class="col"><button><</button></div>
-            <div style="display: inline-block; width: 33%;" class="col"><h1>slide3</h1></div>
-            <div style="display: inline-block; width: 33%;" class="col"><button>></button></div>
-        </div>
+    <nav>
+        <div class="table">
+            <div class="box">
+                <div class="a"><i class="fa-solid fa-house"></i>
+                    <br><br><br><a href="#">home</a></div>
+                <div class="b"><i class="fa-solid fa-list"></i>
+                    <br><br><br><a href="#">services</a></div>
+                <div class="c"><i class="fa-solid fa-paintbrush"></i>
+                    <br><br><br><a href="#">portfolio</a></div>
+                <div class="d"><i class="fa-solid fa-blog"></i>
+                    <br><br><br><a href="#">blog</a></div>
+                <div class="e"><i class="fa-brands fa-teamspeak"></i>
+                    <br><br><br><a href="#">the team</a></div>
+                <div class="f"><i class="fa-solid fa-phone"></i>
+                    <br><br><br><a href="#">contact</a></div>
+            </div>
 
-    </div>
+        </div>
+    </nav>
     <style>
-        .row {
-            display: table;
+        .box {
+            display: flex;
             width: 100%;
+            
+            
+        }
+        .box div {
+            flex-grow: 1;
+            padding-top: 20px;
+            color: white;
+        }
+        .a {
+            min-width:100px;
+            height: 100px;
+            background-color: rgb(230, 206, 30);
             text-align: center;
             vertical-align: middle;
-            
-            
+            color: white;
+           
         }
-        button {
-            width: 200px 100px;
+        .b {
+            min-width:100px;
+            height: 100px;
+            background-color: rgb(245, 93, 50);
+            text-align: center;
         }
-        .col {
-            vertical-align: middle;
+        .c {
+            min-width:100px;
+            height: 100px;
+            background-color: rgb(143, 231, 60);
+            text-align: center;
         }
+        .d {
+            min-width:100px;
+            height: 100px;
+            background-color: rgb(90, 173, 250);
+            text-align: center;
+        }
+        .e {
+            min-width:100px;
+            height: 100px;
+            background-color: rgb(180, 136, 216);
+            text-align: center;
+        }
+        .f {
+            min-width:100px;
+            height: 100px;
+            background-color: rgb(233, 72, 211);
+            text-align: center;
+        }
+
+
 
     </style>
-
-
     
 </body>
 </html>
