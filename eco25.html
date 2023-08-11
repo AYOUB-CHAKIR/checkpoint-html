@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo25</title>
+    <style>
+        html,body {
+            margin: 0px;
+            padding: 0px;
+
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Accounting</a></div>
+        <div><a href="#">Contact</a></div>
+        <div><a href="#">About Us</a></div>
+        <div><a href="#"> Propos</a></div>
+    </div>
+    <div class="box">
+        <div><a href="#">Printerest</a></div>
+        <div><a href="#">Facebook</a></div>
+        <div><a href="#">google</a></div>
+    </div>
+</nav>
+<style>
+
+    nav {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        justify-content: space-between;
+        padding-top: 10px;   
+        
+    }
+    .container {
+        display: flex;
+        margin-left: 20px;
+        
+    }
+    .box {
+        display: flex;
+      
+    }
+    a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16pt;
+        padding: 10px;
+        color: white;
+    }
+    @media screen and (max-width:650px) {
+        nav {
+            flex-flow: column;
+            height: 250px;
+            text-align: center;
+          
+            
+        }
+        .container{
+            flex-flow: column;
+            
+        }
+        .box{
+            justify-content: center;
+            margin-bottom: 20px;
+            
+        }
+        .container > div {
+            padding: 5px;
+
+        }
+        
+        
+    }
+    
+</style>
+    
+</body>
+</html>
