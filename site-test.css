@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+
+}
+.container,.gift {
+    display: flex;
+    
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+}
+.gift {
+   margin-left: 30px;
+}
+.gift i {
+    padding: 5px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.menu {
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15px;
+    
+    
+}
+.menu > div {
+
+ 
+  
+}
+.menu > div > div {
+background-color: red;
+    height: 80px;
+    padding: 10px;
+}
+
+.logo {
+    width: 100%;
+    
+}

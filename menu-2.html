@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        html,body,.container{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .container,.container >div > ul{
+            display: flex;
+            justify-content: space-between;     
+            align-content: center;      
+          
+        }
+        li{
+            list-style-type: none;
+            padding: 23px 15px;
+
+
+        }
+        .menu{
+            flex-basis: 150px;
+        }
+        .menu a{
+            text-decoration: none;
+        }
+        .menu li{
+          
+            text-align: center;
+            color: inherit;
+        }
+        .menu li:hover{
+            background-color: black;
+        
+        }
+        .menu li:hover > a{
+          color:white;
+        
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <div><img src="/assets/img/gite.PNG" width="150px" alt=""></div>
+        <div>
+           
+                <ul class="menu">
+                    <li>
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#">Les gites du Vexin</a>
+                    </li>
+                    <li>
+                        <a href="#">Nos hebergements</a>
+                    </li>
+                    <li>
+                        <a href="#">Nos services d'exeption</a>
+                    </li>
+                    <li>
+                        <a href="#">Sejour dans le Vexin</a>
+                    </li>
+                    <li>
+                        <a href="#">Gestion locative</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+      
+        </div>
+        <div>
+            <ul>
+                <li><i class="fa-solid fa-gift"></i></li>
+                <li><i class="fa-regular fa-calendar-days"></i></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
