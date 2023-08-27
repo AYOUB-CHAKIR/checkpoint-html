@@ -1,0 +1,170 @@
+algorithme"categorie"
+declaration:
+    var:
+        AGE:entier;
+       
+debut
+    ecrire("saisir l'age de l'enfant");
+    lire(AGE);
+        
+        SI(AGE=6 OU AGE=7);
+            ecrire("poussin");
+                SINON SI (AGE=8 ou AGE=9)
+                ecrire("pupille");
+                    SINON SI(AGE=10 ou AGE=11);
+                    ecrire("minime"); 
+                    SINON SI (AGE>=12);
+                    ecrire("cadet");
+        
+        SINON
+            ecrire("erreur");
+                   
+        FINSI
+   
+
+FIN
+
+
+
+algorithme"somme"
+declaration;
+    var:
+        i:enter;
+        s:entier;
+        nbr:entier;
+
+debut
+ecrire("saisir un nbr");
+lire(nbr);
+
+i<-1;
+s<-0;
+tantque(i<=nbr);
+faire
+s<-s+i;
+i<-i+1;
+fintantque
+
+fin
+
+
+
+algorithme"somme"
+declaration:
+    var:
+        i:enter;
+        s:entier;
+        nbr:entier;
+
+debut
+
+ecrire("saisir un nbr");
+lire(nbr); 
+i<-1;
+s<-0;
+pour i=1 à i<=nbr  pas(1);
+      faire
+      s<-s+i
+finpour
+ecrire("la somme est:",s);
+
+fin
+
+
+algorithme"table de multiplication"
+declaration:
+    var:
+    i,s:entier;
+
+pour i=1 à i<=10 pas(1);
+    faire
+    s=i*5
+    ecrire(i,"x5=",s);
+finpour
+fin 
+
+
+
+algorithme"moyen general"
+declaration:
+    VAR:
+    N[10]:reel;
+    i:entier;
+    M:reel
+
+POUR i=0 à i<=9 pas(1)
+    faire
+
+    ecrire("saisir la note");
+    lire(N[i]);
+FINPOUR
+
+M<-0
+POUR i=0 à i<=9 pas(1)
+    faire
+    M<-M+N[i];
+FINPOUR
+
+ecrire("la moyen general est",M/10);
+ 
+fin
+
+
+
+
+algorithme"sup"
+declaration: 
+    var:
+        N[10]:entier;
+        M:entier;
+        i:entier;
+debut
+
+pour i=0 à i<10 pas(1)
+    faire
+    ecrire("saisir le nombre N°",i);
+    lire(N[i]);
+FINPOUR
+
+POUR i=0 à i<10 pas(1)
+    faire
+    si  N[i]>N[i+1]
+        M<-N[i]
+        SINON
+        M<-N[i+1]
+    FINSI
+FINPOUR
+
+ecrire("le nombre le plus grand est",M);
+
+fin
+
+
+
+
+algorithme"nbr de l'occurence"
+declaration:
+        var:
+        T[10]:entier;
+        i,N:entier;
+
+debut
+
+    POUR i=0 à i<10 pas(1)
+        faire
+        ecrire("saisir le nombre N°",i);
+        lire(T[i]);
+
+    FINPOUR
+
+    ecrire("saisir un nbr:");
+    lire(N);
+
+    pour i=0 à i<10 pas(1)
+        faire
+        si()
+
+
+
+fin
+
